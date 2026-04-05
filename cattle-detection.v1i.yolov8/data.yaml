@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names:
+  0: cow
+  1: cow_lying  
+roboflow:
+  workspace: cattle-detection-fuwlj
+  project: cattle-detection-yprhp
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cattle-detection-fuwlj/cattle-detection-yprhp/dataset/1
